@@ -9,7 +9,8 @@
 </head>
 <body>
   <div class="container">
-    <h1>Calculator</h1>
+    <h1><B>CALCULATOR</B></h1>
+ 
 
   <div class="calculator">
     <div class="display">0</div>
@@ -33,8 +34,13 @@
       <button class="btn" onclick="changeTextValue('.')">.</button>
       <button class="clear" onclick="clearDisplay('C')">C</button>
       <button class="operator" onclick="addOperator('+')">+</button>
+      
+      <button class="btn" onclick="square('^')">^</button>
+      <button class="btn" onclick="cube('3')">*3</button>
+      <button class="btn" onclick="calculate('=')">=</button>
+      <button class="operator" onclick="backspace('D')">D</button>
 
-      <button class="equal" onclick="calculate('=')">=</button>
+      <div class="equal"></div>
     </div>
   </div>
 <script src="calculator.js"></script>

@@ -54,9 +54,12 @@ button {
   color: #fff;
 }
 .clear {
-  background-color: #3ede0d;
+  background-color: #f6f3f3;
+  color: #0c0c0c;
+ 
 }
 .equal {
   grid-column: span 4;
-  background-color: #09dfbb;
+  background-color: #222;
+  height: 5px;
 }

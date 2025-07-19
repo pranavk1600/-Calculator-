@@ -17,3 +17,18 @@ function calculate() {
   display.textContent = result;
   expression = result.toString();
 }
+function backspace() {
+  expression = expression.slice(0,-1);
+   display.textContent = expression;
+  
+}
+function square() {
+  let result = eval(expression*expression); 
+  display.textContent = result;
+  expression = result.toString();
+}
+function cube() {
+  let result = eval(expression*expression*expression); 
+  display.textContent = result;
+  expression = result.toString();
+}
